@@ -105,19 +105,20 @@ h1, h2, h3, p {
   display: block;
   width: 24px;
   height: 24px;
-  
+  transition: color 0.3s ease-in-out;
+  color: #fff;
 }
 
-.social__link-facebook {
-  background-image: url('../img/facebook.svg');
+.social__link-instagram:hover {
+  color: #cd486b;
 }
 
-.social__link-twitter {
-  background-image: url('../img/twitter.svg');
+.social__link-twitter:hover {
+  color: #1DA1F2;
 }
 
-.social__link-instagram {
-  background-image: url('../img/instagram.svg');
+.social__link-facebook:hover {
+  color: #3b5998;
 }
 
 .mute {
